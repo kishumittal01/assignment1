@@ -1,243 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
     <title>HEALTH SYGNA</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar bg-body-tertiary" style="position: sticky;">
-            <div class="container">
-                <img src="./images/logo.png" alt="Bootstrap">
-                <div>
-                    <span>Home</span>
-                    <span>About Us</span>
-                    <span>Policy</span>
-                    <span>Terms</span>
-                    <span>Contact Us</span>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div>
+            <img
+              src="images/logo.png"
+              style="
+                padding-left: 10px;
+                max-width: 200px;
+                width: 100%;
+                height: auto;
+              "
+            />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="./images/logo.png"></a>
+            <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0">
+              <li class="nav-item">Home</li>
+              <li class="nav-item">About Us</li>
+              <li class="nav-item">Policy</li>
+              <li class="nav-item">Terms</li>
+              <li class="nav-item">Contact Us</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- Banner -->
     <div class="kbanner">
-        <div style="padding: 10%;">
-            <h4>WE HELP PEOPLE TO TAKE CONTROL OF THEIR HEALTH.</h4>
-            <h6>We help individuals in regaining control of their health.</h6>
-        </div>
-        </div>
+      <div style="padding: 10%">
+        <h4>WE HELP PEOPLE TO TAKE CONTROL OF THEIR HEALTH.</h4>
+        <h6>We help individuals in regaining control of their health.</h6>
+      </div>
+    </div>
     <!-- About Us -->
-    <div class="card kabout" style="display: flex; flex-direction: row;">
-        <div>
-            <h5 style="color: firebrick;">About Us</h5>
+    <div class="container kabout">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div>
+            <h5 style="color: firebrick">About Us</h5>
             <h3>We help individuals in regaining control of their health.</h3>
-            <h5>Our objective is to give well-researched advice and information to assist males and females in accomplishing their
-            goals.</h5>
-            <button type="button" class="btn btn-outline-danger">Learn More</button>
+            <h5>
+              Our objective is to give well-researched advice and information to
+              assist males and females in accomplishing their goals.
+            </h5>
+            <button type="button" class="btn btn-outline-danger">
+              Learn More
+            </button>
+          </div>
         </div>
-        <div class="kabout_i">
-            <img src="./images/about.webp" alt="">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="kabout_i">
+            <img
+              src="./images/about.webp"
+              alt=""
+              style="max-width: 150px; margin-left: 40px; margin-top: 20px"
+            />
+          </div>
         </div>
+      </div>
     </div>
 
-
-    
     <!-- Testimonial -->
-    
+
     <div class="container text-center">
-        <div style="margin: 5%; align-items: center;">
-            <h1>See What <b>Our Customers</b> Say About Us</h1>
-        </div>
-        <div>
-            
-        </div>
+      <div style="margin: 5%; align-items: center">
+        <h1>See What <b>Our Customers</b> Say About Us</h1>
+      </div>
+      <div></div>
     </div>
 
     <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div style="background-color: rgb(248, 248, 227); margin: 5%">
+                  <span
+                    >With numbers of rating and people reviews, it become very
+                    easy to pick the perfect product. They have got something
+                    for everyone. They have team of expert writers who will help
+                    guide you on everything from selecting right product.</span
+                  >
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin: 10%;
+                    padding-left: 20%;
+                  "
+                >
+                  <img
+                    src="./images/test-2.jpg"
+                    alt=""
+                    style="max-width: 35%; border-radius: 50%"
+                  />
+                  <div
+                    style="display: flex; flex-direction: column; margin: 5%"
+                  >
+                    <h6>ALEXANDRA</h6>
+                    <span>🌟🌟🌟</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div style="background-color: rgb(248, 248, 227); margin: 5%">
+                  <span>
+                    In the beginning i was very confused which is the right
+                    product and which one to buy but Health Sygna helps me to
+                    choose the correct one. They also have a great new store
+                    where you can find everything from new workout clothes to
+                    gym accessories.
+                  </span>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin: 10%;
+                    padding-left: 20%;
+                  "
+                >
+                  <img
+                    src="./images/test-3.jpg"
+                    alt=""
+                    style="max-width: 35%; border-radius: 50%"
+                  />
+                  <div
+                    style="display: flex; flex-direction: column; margin: 5%"
+                  >
+                    <h6>TYLER</h6>
+                    <span>🌟🌟🌟</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
-                            <div style="background-color: rgb(248, 248, 227); margin: 5%; ">
-                                <span>With numbers of rating and people reviews, it become very easy to pick the perfect product. They
-                                    have got something for
-                                    everyone. They have team of expert writers who will help guide you on everything from selecting
-                                    right product.</span>
-                            </div>
-                            <div style="display: flex; align-items: center; text-align: center; margin: 10%; padding-left: 20%;">
-                                <img src="./images/test-2.jpg" alt="" style="max-width: 15; max-width: 14%; border-radius: 50%;">
-                                <div style="display: flex; flex-direction: column; margin: 5%;">
-                                    <span>ALEXANDRA</span>
-                                    <span>🌟🌟🌟🌟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div style="background-color: rgb(248, 248, 227); margin: 5%; ">
-                                <span>
-                                    In the beginning i was very confused which is the right product and which one to buy but Health
-                                    Sygna helps me to choose
-                                    the correct one. They also have a great new store where you can find everything from new workout
-                                    clothes to gym
-                                    accessories.
-                                </span>
-                            </div>
-                            <div style="display: flex; align-items: center; text-align: center; margin: 10%; padding-left: 20%;">
-                                <img src="./images/test-3.jpg" alt="" style="max-width: 15; max-width: 14%; border-radius: 50%;">
-                                <div style="display: flex; flex-direction: column; margin: 5%;">
-                                    <span>TYLER</span>
-                                    <span>🌟🌟🌟🌟</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div style="background-color: rgb(248, 248, 227); margin: 5%">
+                  <span
+                    >With numbers of rating and people reviews, it become very
+                    easy to pick the perfect product. They have got something
+                    for everyone. They have team of expert writers who will help
+                    guide you on everything from selecting right product.</span
+                  >
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
-                            <div style="background-color: rgb(248, 248, 227); margin: 5%; ">
-                                <span>With numbers of rating and people reviews, it become very easy to pick the perfect product. They
-                                    have got something for
-                                    everyone. They have team of expert writers who will help guide you on everything from selecting
-                                    right product.</span>
-                            </div>
-                            <div style="display: flex; align-items: center; text-align: center; margin: 10%; padding-left: 20%;">
-                                <img src="./images/test-2.jpg" alt="" style="max-width: 15; max-width: 14%; border-radius: 50%;">
-                                <div style="display: flex; flex-direction: column; margin: 5%;">
-                                    <span>ALEXANDRA</span>
-                                    <span>🌟🌟🌟🌟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div style="background-color: rgb(248, 248, 227); margin: 5%; ">
-                                <span>
-                                    In the beginning i was very confused which is the right product and which one to buy but Health
-                                    Sygna helps me to choose
-                                    the correct one. They also have a great new store where you can find everything from new workout
-                                    clothes to gym
-                                    accessories.
-                                </span>
-                            </div>
-                            <div style="display: flex; align-items: center; text-align: center; margin: 10%; padding-left: 20%;">
-                                <img src="./images/test-3.jpg" alt="" style="max-width: 15; max-width: 14%; border-radius: 50%;">
-                                <div style="display: flex; flex-direction: column; margin: 5%;">
-                                    <span>TYLER</span>
-                                    <span>🌟🌟🌟🌟</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin: 10%;
+                    padding-left: 20%;
+                  "
+                >
+                  <img
+                    src="./images/test-2.jpg"
+                    alt=""
+                    style="max-width: 35%; border-radius: 50%"
+                  />
+                  <div
+                    style="display: flex; flex-direction: column; margin: 5%"
+                  >
+                    <h6>ALEXANDRA</h6>
+                    <span>🌟🌟🌟</span>
+                  </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
-                            <div style="background-color: rgb(248, 248, 227); margin: 5%; ">
-                                <span>With numbers of rating and people reviews, it become very easy to pick the perfect product. They
-                                    have got something for
-                                    everyone. They have team of expert writers who will help guide you on everything from selecting
-                                    right product.</span>
-                            </div>
-                            <div style="display: flex; align-items: center; text-align: center; margin: 10%; padding-left: 20%;">
-                                <img src="./images/test-2.jpg" alt="" style="max-width: 15; max-width: 14%; border-radius: 50%;">
-                                <div style="display: flex; flex-direction: column; margin: 5%;">
-                                    <span>ALEXANDRA</span>
-                                    <span>🌟🌟🌟🌟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div style="background-color: rgb(248, 248, 227); margin: 5%; ">
-                                <span>
-                                    In the beginning i was very confused which is the right product and which one to buy but Health
-                                    Sygna helps me to choose
-                                    the correct one. They also have a great new store where you can find everything from new workout
-                                    clothes to gym
-                                    accessories.
-                                </span>
-                            </div>
-                            <div style="display: flex; align-items: center; text-align: center; margin: 10%; padding-left: 20%;">
-                                <img src="./images/test-3.jpg" alt="" style="max-width: 15; max-width: 14%; border-radius: 50%;">
-                                <div style="display: flex; flex-direction: column; margin: 5%;">
-                                    <span>TYLER</span>
-                                    <span>🌟🌟🌟🌟</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="col">
+                <div style="background-color: rgb(248, 248, 227); margin: 5%">
+                  <span>
+                    In the beginning i was very confused which is the right
+                    product and which one to buy but Health Sygna helps me to
+                    choose the correct one. They also have a great new store
+                    where you can find everything from new workout clothes to
+                    gym accessories.
+                  </span>
                 </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin: 10%;
+                    padding-left: 20%;
+                  "
+                >
+                  <img
+                    src="./images/test-3.jpg"
+                    alt=""
+                    style="max-width: 35%; border-radius: 50%"
+                  />
+                  <div
+                    style="display: flex; flex-direction: column; margin: 5%"
+                  >
+                    <h6>TYLER</h6>
+                    <span>🌟🌟🌟</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div style="background-color: rgb(248, 248, 227); margin: 5%">
+                  <span
+                    >With numbers of rating and people reviews, it become very
+                    easy to pick the perfect product. They have got something
+                    for everyone. They have team of expert writers who will help
+                    guide you on everything from selecting right product.</span
+                  >
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin: 10%;
+                    padding-left: 20%;
+                  "
+                >
+                  <img
+                    src="./images/test-2.jpg"
+                    alt=""
+                    style="max-width: 35%; border-radius: 50%"
+                  />
+                  <div
+                    style="display: flex; flex-direction: column; margin: 5%"
+                  >
+                    <h6>ALEXANDRA</h6>
+                    <span>🌟🌟🌟</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div style="background-color: rgb(248, 248, 227); margin: 5%">
+                  <span>
+                    In the beginning i was very confused which is the right
+                    product and which one to buy but Health Sygna helps me to
+                    choose the correct one. They also have a great new store
+                    where you can find everything from new workout clothes to
+                    gym accessories.
+                  </span>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin: 10%;
+                    padding-left: 20%;
+                  "
+                >
+                  <img
+                    src="./images/test-3.jpg"
+                    alt=""
+                    style="max-width: 35%; border-radius: 50%"
+                  />
+                  <div
+                    style="display: flex; flex-direction: column; margin: 5%"
+                  >
+                    <h6>TYLER</h6>
+                    <span>🌟🌟🌟</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
-<!-- FOOTER -->
-<div class="text-center" style="background-color: black; color: white;">
-    <div class="row">
-        <div class="col" style="background-color: rgba(94, 89, 89, 0.404); padding: 5%; margin: 5%;">
+    <!-- FOOTER -->
+    <div class="text-center" style="background-color: black; color: white">
+      <div class="row">
+        <div
+          class="col"
+          style="
+            background-color: rgba(94, 89, 89, 0.404);
+            padding: 5%;
+            margin: 5%;
+          "
+        >
+          <div>
+            <img
+              src="./images/logo.png"
+              alt=""
+              style="max-width: 250px; padding: 4%"
+            />
             <div>
-                <img src="./images/logo.png" alt="" style="padding: 4%;">
-                <div>We at Health Sygna are dedicated to improving the lives of those who want to live a healthier & happy life Our purpose
-                is to provide highly researched suggestions to help genders accomplish their goals.</div>
+              We at Health Sygna are dedicated to improving the lives of those
+              who want to live a healthier & happy life Our purpose is to
+              provide highly researched suggestions to help genders accomplish
+              their goals.
             </div>
+          </div>
         </div>
-        <div class="col" style="display: flex; padding: 5%; margin: 5%;">
-            <div style="display: flex; flex-direction: column; padding-right: 5%;">
-                <h3>Useful Links</h3>
-                <div style="display: flex;">
-                    <ul style="list-style: none; text-align: left; color: gray;">
-                        <li>Home</li>
-                        <li>About Us</li>
-                    </ul>
-                    <ul style="list-style: none; text-align: left; color: gray;">
-                        <li>Contact Us</li>
-                        <li>Policy</li>
-                        <li>Terms</li>
-                    </ul>
-                </div>
+        <div class="col" style="display: flex; padding: 4%; margin: 4%">
+          <div style="display: flex; flex-direction: column; padding-right: 4%">
+            <h3>Useful Links</h3>
+            <div style="display: flex">
+              <ul style="list-style: none; text-align: left; color: gray">
+                <li>Home</li>
+                <li>About Us</li>
+              </ul>
+              <ul style="list-style: none; text-align: left; color: gray">
+                <li>Contact Us</li>
+                <li>Policy</li>
+                <li>Terms</li>
+              </ul>
             </div>
-            <div style="display: flex; flex-direction: column;">
-                <h3>Follow Us</h3>
-                <div>
-                    <ul style="list-style: none; text-align: left; color: gray;">
-                        <li>Oakland Gardens,</li>
-                        <li>NY 11364</li>
-                        <li>support@healthsygna.net</li>
-                        <li><img src="./images/fb.png" alt="" style="max-width: 15%; border-radius: 50%"></li>
-                    </ul>
-                </div>
+          </div>
+          <div style="display: flex; flex-direction: column">
+            <h3>Follow Us</h3>
+            <div>
+              <ul style="list-style: none; text-align: left; color: gray">
+                <li>Oakland Gardens,</li>
+                <li>NY 11364</li>
+                <li>support@healthsygna.net</li>
+                <li>
+                  <img
+                    src="./images/fb.png"
+                    alt=""
+                    style="max-width: 15%; border-radius: 50%"
+                  />
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

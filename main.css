@@ -2,6 +2,15 @@
     display: flex;
 }
 
+.box {
+    
+    
+}
+
+.overlay {
+    z-index: 9;
+}
+
 .kbanner {
     background-image: url("./images/banner.webp");
     background-size: cover;
@@ -10,20 +19,25 @@
     color: white;
     text-align: center;
     align-items: center;
+    
 }
 
 .kabout {
+    align-items: center;
+    background-color: white;
+    border: 2px solid;
+    margin-top: -7%;
     width: 70%;
-    box-shadow: gray;
+    box-shadow: 5px 5px 5px rgb(211, 206, 206);
     border-top-color: red;
     border-radius: 4px;
     margin-left: 15%;
     margin-right: 5%;
     padding: 5%;
+    z-index: 10;
 }
 
 .kabout_i {
     padding-left: 5px;
-    width: 50%;
-
+    
 }
